@@ -48,11 +48,16 @@ int pos = 0;    // variable to store the servo position
 
 void setup() {
  
-  myservo1.attach(3);  // attaches the servo on pin 3 to the servo object
+  myservo1.attach(3);  // attaches the servo on pin 3 to the servo object 
+  
   myservo2.attach(5);  // attaches the servo on pin 5 to the servo object
+  
   myservo3.attach(6);  // attaches the servo on pin 6 to the servo object
+  
   myservo4.attach(9);  // attaches the servo on pin 9 to the servo object
+  
   myservo5.attach(10);  // attaches the servo on pin 10 to the servo object
+  
   myservo6.attach(11);  // attaches the servo on pin 11 to the servo object
 }
 
